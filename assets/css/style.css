@@ -303,8 +303,10 @@ h3 {
 }
 
 .section {
-  padding-bottom: 0px;
-  padding-top: 10;
+  padding-bottom: 30px;
+  position: relative;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .full-height {
@@ -370,7 +372,7 @@ h3 {
 }
 
 .card {
-  margin-bottom: 0px;
+  margin-bottom: 20px;
 }
 
 .card .role {
