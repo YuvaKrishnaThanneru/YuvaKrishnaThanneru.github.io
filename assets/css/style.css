@@ -595,6 +595,13 @@ small {
   }
 }
 
+@media only screen and (max-width: 600px) {
+  /* Adjust width for smaller screens (e.g., mobile) */
+  .col.s12.m10 {
+    width: 90%; /* Adjust the width as needed */
+  }
+}
+
 @media (max-width: 1160px) {
   .card ul li {
     line-height: 150%;
