@@ -382,31 +382,6 @@ h3 {
   align-items: center;
 }
 
-#contact.row {
-  margin-bottom: 0;
-}
-
-#contact p {
-  margin-bottom: 20px;
-}
-
-#contact.btn-floating {
-  margin: 0 10px;
-}
-
-#contact.fa {
-  margin-right: 10px;
-}
-
-#contact a.hoverline {
-  text-decoration: none;
-  color: #333;
-}
-
-#contact a.hoverline:hover {
-  text-decoration: underline;
-}
-
 .card {
   margin-bottom: 40px;
 }
