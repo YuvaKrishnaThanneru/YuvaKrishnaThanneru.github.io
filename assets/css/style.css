@@ -297,7 +297,7 @@ li.logo span {
 h3 {
   font-family: 'Times New Roman';
   font-size: 24px;
-  padding: 15px 15;
+  padding: 15px 0;
   line-height: 1;
   text-transform: uppercase;
 }
@@ -318,6 +318,10 @@ h3 {
   background: url(../../assets/img/white-ai-wallpaper.jpg) no-repeat top center/cover;
   position: relative;
 } */
+.section-card {
+  padding: 20px 0; 
+  margin-bottom: 40px;
+}
 
 #intro.section {
   background: #a7ffeb repeat;
