@@ -458,14 +458,28 @@ h3 {
 .card i.right {
   margin-left: 10px;
 }
-
+/* Style for hover effect with orange line */
 a.hoverline {
   border-bottom: 3px solid transparent !important;
   padding: 3px 3px 0 3px;
   transition: 0.25s all;
   -moz-transition: 0.25s all;
   -webkit-transition: 0.25s all;
+  color: black; /* Set text color to black */
 }
+
+a.hoverline:hover {
+  border-bottom: 3px solid #ffa200 !important; /* Orange color on hover */
+}
+
+/* Style for centering icons and links */
+#contact .card-content p {
+  display: flex; /* Make each paragraph a flexbox container */
+  justify-content: center; /* Center elements horizontally */
+  align-items: center; /* Center elements vertically */
+  margin-bottom: 10px; /* Add some margin between paragraphs */
+}
+
 
 /* main a.hoverline */
 
@@ -473,9 +487,6 @@ a.hoverline {
   border-bottom: 3px solid #24305e !important;
 } */
 
-a.hoverline:hover {
-  border-bottom: 3px solid #ffa200 !important;
-}
 
 #skills .card.large {
   height: 360px;
