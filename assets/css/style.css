@@ -371,6 +371,42 @@ h3 {
   background-color: rgba(33, 150, 243, 0.2);
 }
 
+#contact.card {
+  padding: 20px;
+  text-align: center;
+}
+
+#contact.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contact.row {
+  margin-bottom: 0;
+}
+
+#contact p {
+  margin-bottom: 20px;
+}
+
+#contact.btn-floating {
+  margin: 0 10px;
+}
+
+#contact.fa {
+  margin-right: 10px;
+}
+
+#contact a.hoverline {
+  text-decoration: none;
+  color: #333;
+}
+
+#contact a.hoverline:hover {
+  text-decoration: underline;
+}
+
 .card {
   margin-bottom: 40px;
 }
