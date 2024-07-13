@@ -303,8 +303,8 @@ h3 {
 }
 
 .section {
-  padding-bottom: 20px;
-  padding-top: 20;
+  padding-bottom: 5px;
+  padding-top: 0;
   position: relative;
 }
 
@@ -371,7 +371,7 @@ h3 {
 }
 
 .card {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .card .role {
