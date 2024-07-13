@@ -303,8 +303,9 @@ h3 {
 }
 
 .section {
-  padding-bottom: 20px;
-  padding-top: 0;
+  padding-bottom: 10px;
+  padding-top: 10;
+  font-family: 'Times New Roman';
   position: relative;
 }
 
