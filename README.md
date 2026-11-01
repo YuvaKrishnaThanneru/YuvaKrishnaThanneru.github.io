@@ -4,7 +4,7 @@
 
 Senior Business Analyst at Walgreens, working where analytics engineering, business intelligence and operational strategy meet. 3+ years across Walgreens, Citi (via Wipro) and university research.
 
-**[View the live site](https://krishnadataanalyst.github.io/)**
+**[View the live site](https://yuvakrishnathanneru.github.io/)**
 
 <p align="center">
   <img src="assets/preview.jpg" alt="Portfolio home screen" width="900">
@@ -70,8 +70,8 @@ Senior Business Analyst at Walgreens, working where analytics engineering, busin
 No install is needed. Clone the repo and open `index.html` in a browser:
 
 ```bash
-git clone https://github.com/krishnadataanalyst/krishnadataanalyst.github.io.git
-cd krishnadataanalyst.github.io
+git clone https://github.com/YuvaKrishnaThanneru/yuvakrishnathanneru.github.io.git
+cd yuvakrishnathanneru.github.io
 open index.html        # macOS. Use "start index.html" on Windows.
 ```
 
