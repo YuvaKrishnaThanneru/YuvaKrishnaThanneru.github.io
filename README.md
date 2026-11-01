@@ -1,63 +1,91 @@
-<div align="center">
-  <h1 style="color:#8a2be2;">🌐 Personal Portfolio Website</h1>
-  <img src="https://github.com/user-attachments/assets/10396390-4ec9-4d79-83b8-c8e7fd03ee66" align="center" width="900"/>
-</div>
-Welcome to my personal portfolio website! This website showcases my skills, experience, projects, and more. It is built using HTML, CSS, JavaScript, and Materialize - a CSS framework inspired by Google's Material Design. The website features a sleek design with a typing animation to add a dynamic touch.
+# Yuva Krishna Thanneru: Portfolio
 
-## 🚀 Deployment
+**I build the data behind better business decisions.**
 
-The website is deployed using [GitHub Pages](https://pages.github.com/).
+Senior Business Analyst at Walgreens, working where analytics engineering, business intelligence and operational strategy meet. 3+ years across Walgreens, Citi (via Wipro) and university research.
 
-## 🌟 Features
+**[View the live site](https://krishnadataanalyst.github.io/)**
 
-- **Typing Animation**: A smooth typing animation implemented using JavaScript.
-- **Material Design**: Styled using Materialize CSS framework for a clean, modern look.
-- **Responsive Design**: Fully responsive and optimized for different devices.
-- **Easy Navigation**: Intuitive navigation with clearly defined sections.
+<p align="center">
+  <img src="assets/preview.jpg" alt="Portfolio home screen" width="900">
+</p>
 
-## 📑 Sections
+---
 
-### 1. Intro 💡
+## What's on the site
 
-The introduction section provides an overview of my passion and includes buttons for LinkedIn and GitHub. Clicking these buttons will open my LinkedIn and GitHub profiles in new tabs.
+| Section | What it covers |
+|---|---|
+| **Opening story** | A scroll-driven animation. Thousands of particles start as noise, then form **$7M+**, a question mark, **78M** and **2.2M** while the captions tell the story behind each number. They finish around my portrait. |
+| **Questions** | The business questions I get asked, with how I approached each one and what it produced. |
+| **My story** | From Wipro and Citi, to an M.S. at Northern Illinois University (Merit Scholarship), to Walgreens. |
+| **Case studies** | Seven case studies that scroll sideways on desktop. Each has a business question, my contribution, the outcome and its own visual. |
+| **Leadership** | Where I went beyond the request: new analyses, frameworks other teams adopted, and mentoring. |
+| **Query me** | An interactive SQL console. Visitors pick a question, the query types itself out and the results animate in. |
+| **Experience** | Full role details in expandable rows. |
+| **Stack** | Tool logos grouped by stage of the data lifecycle, filterable by ingest, store, transform, analyze and ship. |
+| **Credentials** | Education, plus certifications that link to the verified credentials. |
+| **Contact** | Email (with a copy button), phone, LinkedIn, GitHub and resume. |
 
-### 2. About Me 👤
+<p align="center">
+  <img src="assets/preview-story.jpg" alt="Scroll story: 2.2 million pack-eligible prescriptions" width="900">
+</p>
 
-This section provides a brief introduction about myself, my background, and my interests.
+## Selected work highlights
 
-### 3. Experience 💼
+- **78M** prescription records analyzed, surfacing **2.2M** pack-eligible abandoned prescriptions. These were traced from chain-wide to site to store, with metrics on what share could be filled in manufacturer packaging instead of amber vials.
+- Analytics supporting an amber vial initiative that reduced **3M+** excess vials, worth **$7M+** at cost, over nine months.
+- **37%** reduction in targeted high-cost inventory adjustment cases, and **20%** fewer aging salvage claims.
+- A KPI framework for a regional workforce pilot covering **196 stores** in **8 districts** and **6 core workflows**. It informed the decision on a chain-wide rollout.
+- A Snowflake enterprise data warehouse for **10TB+** of financial data at Citi, with **40%** faster queries.
 
-The experience section highlights my professional background, including positions held, responsibilities, and achievements.
+## Built with
 
-### 4. Projects 📂
+- **Plain HTML, CSS and JavaScript** in one self-contained `index.html`, with no framework and no build step.
+- **Canvas 2D** for the particle animation, which samples text shapes and moves between them as you scroll.
+- **IntersectionObserver** for reveal animations, counters and chart animations.
+- **[Lenis](https://github.com/darkroomengineering/lenis)** for smooth scrolling, loaded from a CDN. The site falls back to normal scrolling if it doesn't load.
+- **Google Fonts:** Bricolage Grotesque for headings and Instrument Sans for body text.
+- **Logos** come from [Devicon](https://devicon.dev/) (MIT) and [Simple Icons](https://simpleicons.org/) (CC0), embedded in the page.
 
-A showcase of my projects, including brief descriptions and links to the respective repositories or live demos.
+## Responsive and accessible
 
-### 5. Skills 🛠️
+- Tested on large monitors (1920×1080), laptops (1440×900 and 1280×720) and phones (390px).
+- On phones and short screens, the sideways case studies turn into a normal vertical list.
+- Respects the system **reduced motion** setting. Animations are replaced with a static layout.
+- Supports keyboard navigation with visible focus, plus a skip link and labeled controls.
 
-An overview of my technical skills, including programming languages, tools, and frameworks I am proficient in.
+## Project structure
 
-### 6. Education 🎓
+```
+├── index.html          # the whole site: markup, styles, scripts, images and resume
+├── assets/
+│   ├── preview.jpg     # README screenshots
+│   └── preview-story.jpg
+└── README.md
+```
 
-Details of my educational background, including institutions attended, degrees earned, and relevant coursework.
+## Run it locally
 
-### 7. Contact Me 📞
+No install is needed. Clone the repo and open `index.html` in a browser:
 
-This section provides my contact information and includes a form for visitors to get in touch with me. 
+```bash
+git clone https://github.com/krishnadataanalyst/krishnadataanalyst.github.io.git
+cd krishnadataanalyst.github.io
+open index.html        # macOS. Use "start index.html" on Windows.
+```
 
-## 📄 Resume
+## Deployment
 
-A button at the end of the page opens a new tab with my resume hosted on Google Drive.
+The site is hosted on **GitHub Pages** from the `main` branch. Pushing changes to `index.html` publishes them within a minute or two.
 
-## 🛠️ Technologies Used
+## A note on data
 
-- **HTML5**: For structuring the content.
-- **CSS3**: For styling the website.
-- **JavaScript**: For adding interactive elements like the typing animation.
-- **Materialize CSS**: For implementing Material Design components.
+Every number on the site comes from work I delivered. Charts marked **"Illustration"** show the shape of an analysis and don't contain company data.
 
-## 📎 Links
+## Contact
 
-- [Live Website](https://yuvakrishnathanneru.github.io/)
-
-Thank you for visiting my portfolio website! 😊
+- **Email:** [t.yuvakrishna@gmail.com](mailto:t.yuvakrishna@gmail.com)
+- **Phone:** +1 945-208-0433
+- **LinkedIn:** [linkedin.com/in/yuvakrishna15](https://www.linkedin.com/in/yuvakrishna15)
+- **GitHub:** [github.com/YuvaKrishnaThanneru](https://github.com/YuvaKrishnaThanneru)
