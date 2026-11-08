@@ -900,7 +900,7 @@ $$('[data-resume]').forEach(function(a){a.addEventListener('click',function(e){
   try{var bin=atob(RESUME_B64),u=new Uint8Array(bin.length);for(var i=0;i<bin.length;i++)u[i]=bin.charCodeAt(i);
     var url=URL.createObjectURL(new Blob([u],{type:'application/pdf'}));e.preventDefault();
     var w=window.open(url,'_blank');
-    if(!w){var d=document.createElement('a');d.href=url;d.download='Yuva_Krishna_Thanneru_Resume.pdf';document.body.appendChild(d);d.click();d.remove();}
+    if(!w){var d=document.createElement('a');d.href=url;d.download='Yuvakrishna_Thanneru_Resume_P.pdf';document.body.appendChild(d);d.click();d.remove();}
   }catch(err){/* fall back to the normal link */}
 });});
 
